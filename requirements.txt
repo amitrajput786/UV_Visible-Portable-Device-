@@ -1,0 +1,22 @@
+# Requirements — AI-Integrated Portable Spectrofluorometer
+# NIT Rourkela — Amit Kumar (421CY5075)
+#
+# For Raspberry Pi OS (hardware + software):
+#   pip install -r requirements_pi.txt --break-system-packages
+#
+# For Windows/Linux PC (software/analysis only):
+#   pip install -r requirements_pc.txt
+
+# ── Core analysis (both Pi and PC) ───────────────────────
+streamlit>=1.28.0
+numpy>=1.24.0
+opencv-python-headless>=4.8.0
+Pillow>=10.0.0
+pandas>=2.0.0
+scipy>=1.11.0
+matplotlib>=3.7.0
+
+# ── Raspberry Pi hardware only ────────────────────────────
+# Uncomment below when installing on Pi:
+# RPi.GPIO>=0.7.1
+# picamera2>=0.3.12

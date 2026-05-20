@@ -1,0 +1,11 @@
+Qty,Reference,Value,Description,Package,Suggested_Part
+2,C1 C2,100nF,Ceramic capacitor 50V,Disc 2.5mm pitch,Generic
+2,D1 D3,1N4148,Fast switching diode,DO-35,1N4148
+2,D2 D4,UV LED 365nm,High-intensity UV LED,5mm round,VAOL-5EUV0T4 or WP154A4
+1,J1,6-pin header,2.54mm pin header vertical male,Vertical male,Generic 1x6
+1,J2,2-position,Screw terminal block 5mm,Phoenix MKDS,Phoenix 1757242
+1,Q1,IRLZ44N,N-channel MOSFET logic level,TO-220,IRLZ44N
+1,R1,1kΩ,Metal film resistor,1/4W axial,Generic
+1,R2,4.7kΩ,Metal film resistor,1/4W axial,Generic
+2,R3 R4,470Ω,Metal film resistor,1/4W axial,Generic
+1,U1,DS18B20,Temperature sensor 1-Wire,TO-92,DS18B20 Maxim/Analog
